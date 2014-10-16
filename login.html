@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo Login Page</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="login.css" />
+		<script src="login.js" type="text/javascript"></script>
+	</head>
+
+
+<body>
+<!--This is our main top header section-->
+	<header class= "top">
+		<span class ="logoimg">
+			<img src= "./Images/jmu_logo.png" id= "logo" alt= "FAIL"/>
+		</span>
+			JMU TEXTBOOK EXCHANGE
+		
+	</header>
+	<nav>
+		<a href="login.html">Home</a>
+	</nav>
+<!--End top header-->
+	
+	
+	
+	<section>
+		
+		<header><h1>Login Page</h1></header>
+		
+		<table>
+			<tr>
+				<th>Username</th>
+				<th>Password</th>
+			</tr>
+			<tr>
+				<td><input type="text" id="username" /></td>
+				<td><input type="password" id="password" /></td>
+			</tr>
+			<tr>
+				<td><input id="signUp_button" type="button" value="Sign-Up" onclick="location.href='signUp.html'">
+				<td><input id="login_button" type="button" value="Login"></td>
+			</tr>
+		</table>
+		
+		
+	</section>
+	
+	<script type="text/javascript">init();</script>
+</body>
+
+</html>

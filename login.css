@@ -1,0 +1,190 @@
+header.top {
+	font-family: Georgia, Arial, Sans-Serif;
+	font-size: 20pt;
+	text-align: center;
+	color: #450084;
+}
+
+span.logoimg > img {
+	width: 5%;
+	height: auto;
+
+}
+
+nav {
+	box-shadow: 2px 2px 1px #888888;
+	border-radius: 5px;
+	background-color: #CBB677;
+	border-color: #CBB677;
+	border-style: solid;
+	border-width: 10px;
+	font-family: Georgia, Arial, Sans-Serif;
+	font-size: 14pt;
+}
+
+h1 {
+	color: #450084;
+	text-align: center;
+	font-size: 18pt;
+	font-family: Georgia, Arial, Sans-Serif;
+}
+
+h3 {
+	color: #450084;
+	text-align: center;
+	font-size: 12pt;
+	font-family: Georgia, Arial, Sans-Serif;
+}	
+
+nav > a {
+	
+	border-color: #CBB677;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	color: #450084;
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 5px;
+	font-family: Georgia, Arial, Sans-Serif;
+}
+
+nav > a:hover {
+	
+	border-color: #450084;
+	box-shadow: 2px 2px 1px #29024f;
+	background-color: #450084;
+	border-radius: 7px;
+	padding-left: 5px;
+	color: #CBB677;
+	
+	
+}
+
+div.myPosts{
+	width:700px;
+	height:400px;
+	line-height:3em;
+	overflow:scroll;
+	padding:5px;
+	margin: 50px auto;
+	box-shadow: 2px 2px 1px #888888;
+	border-radius: 5px;
+	border-color: #CBB677;
+	border-style: solid;
+	border-width: 10px;
+	text-align: left;
+}
+
+div.titlePosts{
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+p.titlePosts{
+	color: #450084;
+	text-align: center;
+	font-size: 50pt;
+	font-family: Georgia, Arial, Sans-Serif;
+}
+
+input:focus {
+	
+  background-color: rgb(255,255,204);
+
+}
+
+input{
+
+  text-align: right;
+  border-color: #450084;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  color: #450084;
+  margin: 1px;
+  font-family: Georgia, Arial, Sans-Serif;
+}
+
+input.textbox{
+	width: 200px;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #450084;
+  font-family: Georgia, Arial, Sans-Serif;
+}
+
+table.myPosts {
+  margin: 0 auto;
+  color: #450084;
+  font-family: Georgia, Arial, Sans-Serif;
+}
+
+caption.createPost{
+	text-align: center;
+	font-size: 30px;
+}
+
+td.createButton{
+	text-align: right;
+}
+
+td.textbox{
+	text-align: center;
+}
+
+td.label {
+	text-align: right;
+}
+
+button {
+   border-top: 1px solid #3a0073;
+   background: #29024f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#4b0394), to(#29024f));
+   background: -webkit-linear-gradient(top, #4b0394, #29024f);
+   background: -moz-linear-gradient(top, #4b0394, #29024f);
+   background: -ms-linear-gradient(top, #4b0394, #29024f);
+   background: -o-linear-gradient(top, #4b0394, #29024f);
+   padding: 20px 40px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #cbb677;
+   font-size: 19px;
+   font-family: Georgia, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   
+button:hover {
+   border-top-color: #cbb677;
+   background: #cbb677;
+   color: #440084;
+   }
+   
+button:active {
+   border-top-color: #440084;
+   background: #440084;
+   }
+   
+section.container {
+	border-style: solid;
+	border-top-color: #cbb677;
+	border-bottom-color: #cbb677;
+	border-left-color: #cbb677;
+	border-right-color: #cbb677;
+
+}
+   
+ 
+
+
