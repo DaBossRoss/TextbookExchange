@@ -61,18 +61,19 @@ function phpCreatePostCall(){
 	var Class = getInput("createPost_Class");
 	var Major = getInput("createPost_Major");
 	var Price = getInput("createPost_Price");
-	var url = "http://localhost/createPost.php" + urlParamBuilder(Title,Author,ISBN,Class,Major,Price);
-
+	var uri = "http://localhost/createPost.php" + urlParamBuilder(Title,Author,ISBN,Class,Major,Price);
+	var url = encodeURI(uri);
     document.location.href = url;
 
 
 }
 
+//Builds the URL
 function urlParamBuilder (title, author, isbn, clss, major, price) {
 	
 	var url = "";
 	
 	url = "?title=" + title + "&&author=" + author + "&&isbn=" + isbn + "&&class=" + clss + "&&major=" + major + "&&price=" + price;
 
-	return url
+	return url;
 }
