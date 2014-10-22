@@ -4,7 +4,7 @@
 		<title>JMU Textbook Exchange</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="login.css" />
-		<script src="login.js" type="text/javascript"></script>
+		<script src="createPost.js" type="text/javascript"></script>
 	</head>
 
 
@@ -33,7 +33,7 @@
 					<td class= "label">Title:</td>
 					<td class= "textbox">
 						<div class= "text">	
-				    		<input class= "textbox" type="text" id= "input">
+				    		<input class= "textbox" type="text" id= "createPost_Title">
 				    	</div>
 			    	</td>
 				</tr>
@@ -41,7 +41,7 @@
 					<td class= "label">Author:</td>
 					<td class= "textbox">
 						<div class= "text">
-			    			<input class= "textbox" type="text" id= "input">
+			    			<input class= "textbox" type="text" id= "createPost_Author">
 			    		</div>
 			    	</td>
 			    </tr>
@@ -49,7 +49,7 @@
 			    	<td class= "label">ISBN:</td>
 					<td class= "textbox">
 						<div class= "text">
-			    			<input class= "textbox" type="text" id= "input">
+			    			<input class= "textbox" type="text" id= "createPost_ISBN">
 			    		</div>
 			    	</td>
 			    </tr>
@@ -57,7 +57,7 @@
 			    	<td class= "label">Class:</td>
 					<td class= "textbox">
 						<div class= "text">
-			    			<input class= "textbox" type="text" id= "input">
+			    			<input class= "textbox" type="text" id= "createPost_Class">
 			    		</div>
 			    	</td>
 			    </tr>
@@ -65,7 +65,7 @@
 			    	<td class= "label">Major:</td>
 					<td class= "textbox">
 						<section class= "text">
-			    			<input class= "textbox" type="text" id= "input">
+			    			<input class= "textbox" type="text" id= "createPost_Major">
 			    		</section>
 			    	</td>
 			    </tr>
@@ -73,19 +73,20 @@
 			    	<td class= "label">Price:</td>
 					<td class= "textbox">
 						<section class= "text">
-			    			<input class= "textbox" type="text" id= "input">
+			    			<input class= "textbox" type="text" id= "createPost_Price">
 			    		</section>
 			    	</td>
 			    </tr>
 			    <tr class= "buttons">
 			    	<td></td>
 			    	<td class= "createButton">	
-						<input class="createButton" type="button" id= "create" value= "Create">
+						<input id="createPost_Button" type="button" class="createButton" value= "Create">
 			   	    </td>
 			    </tr>
 		</table>
-		
+	<div id="myDiv">
 	</div>
-
+	</div>
+	<script type="text/javascript">init();</script>
 </body>
 </html>
