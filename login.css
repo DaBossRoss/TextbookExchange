@@ -99,7 +99,7 @@ input:focus {
 
 }
 
-#input, #createPost_Title, #createPost_Author, #createPost_ISBN, #createPost_Class, #createPost_Major, #createPost_Price {
+input {
 
   text-align: right;
   border-color: #450084;
@@ -186,5 +186,8 @@ section.container {
 }
    
  
-
+#logout_button {
+	float: right;
+	text-align: right;
+}
 

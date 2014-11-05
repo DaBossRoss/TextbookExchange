@@ -1,5 +1,5 @@
 /**
- *@author Ross Ellingworth
+ * @author Colin Sheehan
  * 
  * This is a class that reads in the values 
  * from the HTML Document and compares it to 
@@ -21,13 +21,8 @@ function init(){
  *The event handlers for the web app 
  */
 function registerEventHandlers(){	
-	var login_button;
 	var signUp_button;
 	
-	login_button = document.getElementById("login_button");
-    login_button.addEventListener("click", function() { 
-    compareLoginInfo();}, true);
-    
     signUp_button = document.getElementById("signUp_button");
     signUp_button.addEventListener("click", function() { 
     createNewInfo();}, true);	
@@ -46,39 +41,6 @@ function getInput(name){
 		output ="";
 	}
 	return output;
-}
-
-/**
- *Compares the values in stored in the arrays to inputs 
- */
-function compareLoginInfo(){	
-	var username = getInput("username");
-	var password = getInput("password");
-	var userSame = false;
-	var passSame = false;
-	var location = 0;
-	
-	//Compares the input to values in the array
-	for (var i = 0; i < usernamesArray.length; i++){	
-		if(usernamesArray[i] == username){
-			userSame = true;
-			location = i;
-		}
-	}
-	
-	if(passwordsArray[location] == password){	
-			passSame = true;
-		}
-	
-	//If the passwords are the same then change the page
-	if (userSame == true && passSame == true){
-		document.location.href = "loginSuccess.html";
-		sendLoginPost();
-	}
-	
-	else if (userSame == false || passSame == false){
-		window.alert("You have put in either an incorrect password or username!");
-	}
 }
 
 /**

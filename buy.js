@@ -21,7 +21,7 @@ function registerEventHandlers(){
 	var searchButtton;	
 	
 	searchButton = document.getElementById("SearchButton");
-    login_button.addEventListener("click", function() { 
+    searchButton.addEventListener("click", function() { 
     validateBuyInfo();}, true);	
 }
 

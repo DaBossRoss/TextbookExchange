@@ -20,8 +20,8 @@ function registerEventHandlers(){
 	var searchButtton;	
 	
 	searchButton = document.getElementById("createPost_Button");
-    login_button.addEventListener("click", function() { 
-    validateBuyInfo();}, true);	
+    searchButton.addEventListener("click", function() { 
+    validateSellInfo();}, true);	
 }
 
 /**
