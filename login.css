@@ -99,7 +99,7 @@ input:focus {
 
 }
 
-input{
+#input, #createPost_Title, #createPost_Author, #createPost_ISBN, #createPost_Class, #createPost_Major, #createPost_Price {
 
   text-align: right;
   border-color: #450084;
